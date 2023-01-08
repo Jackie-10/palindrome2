@@ -1,0 +1,131 @@
+*{    
+    box-sizing: border-box;   
+}
+body{  
+    margin-top: 20px; 
+    font-family: sans-serif;    
+}
+.container{
+    position: relative;
+    margin: auto;
+    height: 400px;
+    width: 400px;
+    align-items: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+}
+ 
+.h2-1{
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    left: 67px;
+    height: 40px;
+    width: 265px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);     
+    border-radius: 10px;
+    color: #846011f5;
+    font-size: 29px;
+}
+.h2-2{
+    position: relative;
+    top: 40px;
+    left: -83px;
+    color: #116c5c;
+    font-size: 25px;     
+}
+.inp {
+    position: relative;
+    top: 20px;
+    border: none;
+    border-bottom: 2px solid #924401;
+    width: 370px;
+    height: 30px;     
+    color: #973000;   
+    font-size: 20px; 
+    display: block;
+    outline: none;
+}    
+
+.sumbit, .btn-clear{
+    font-size: 20px;
+    position: relative; 
+    border: none;
+    border-radius: 10px;
+    background-color: darkcyan;
+    color: beige;
+    cursor: pointer;
+}
+.sumbit{    
+    left: -90px;
+    top: 20px;
+    height: 28px;
+    width: 115px;    
+}
+.btn-clear{     
+    left: -80px;
+    top: 20px;
+    height: 28px;
+    width: 65px;     
+}
+.sumbit:hover,
+.btn-clear:hover{
+    color: #7bf500;
+}
+
+.frame{
+    padding: 3px;
+    position: relative;   
+    top: 55px;
+    height: 120px;
+    width: 376px;
+    border: 2px solid #81d5dc;      
+    font-size: 12px;    
+    border-radius: 10px;
+}
+.h2-3{     
+    position: relative; 
+    left: 3px;
+    top: -15px; 
+    color:#a75900;
+}
+.h2-4{
+    overflow-wrap: break-word; 
+    position: relative; 
+    left: 3px;
+    top: -25px;  
+    color: #057002;  
+}
+
+.lbl-1,
+.lbl-2,
+.radio-1,
+.radio-2{
+    position: relative;
+    font-weight: bold; 
+}
+.radio-1{      
+    top: 38px;
+    left: 180px;    
+}
+
+.radio-2{    
+    top: 61px;
+    left: 50px; 
+}
+
+.lbl-1{   
+    top: 35px;
+    left: 180px; 
+    color: #116c5c;      
+}
+
+.lbl-2{     
+    top: 60px;
+    left: 31px;
+    color: #924401;   
+}
