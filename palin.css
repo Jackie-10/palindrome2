@@ -2,13 +2,13 @@
     box-sizing: border-box;   
 }
 body{  
-    margin-top: 20px; 
+    margin-top: 30px; 
     font-family: sans-serif;    
 }
 .container{
     position: relative;
     margin: auto;
-    height: 400px;
+    height: 450px;
     width: 400px;
     align-items: center; 
     display: flex;
@@ -62,13 +62,13 @@ body{
 }
 .sumbit{    
     left: -90px;
-    top: 20px;
+    top: 25px;
     height: 28px;
     width: 115px;    
 }
 .btn-clear{     
     left: -80px;
-    top: 20px;
+    top: 25px;
     height: 28px;
     width: 65px;     
 }
@@ -80,7 +80,7 @@ body{
 .frame{
     padding: 3px;
     position: relative;   
-    top: 55px;
+    top: 70px;
     height: 120px;
     width: 376px;
     border: 2px solid #81d5dc;      
@@ -109,23 +109,23 @@ body{
     font-weight: bold; 
 }
 .radio-1{      
-    top: 38px;
+    top: 43px;
     left: 180px;    
 }
 
 .radio-2{    
-    top: 61px;
+    top: 72px;
     left: 50px; 
 }
 
 .lbl-1{   
-    top: 35px;
+    top: 40px;
     left: 180px; 
     color: #116c5c;      
 }
 
 .lbl-2{     
-    top: 60px;
+    top: 70px;
     left: 31px;
     color: #924401;   
 }
