@@ -100,14 +100,10 @@ for (let i = 0; i < string.length; i++) {
 function isPalindrome(string) {     
      
     let conunt = 0;  
-    let leng = string.length;  
- 
-    // If a space is found at the beginning or end of the string -> return
-    if(string[0] == " " || string[leng] == " ")
-       return
+    let leng = string.length;       
     
     for(let i = 0; i < leng; i++){               
-        if(string[i] === string[leng - 1 - i])                 
+        if(string[i] != " " && string[i] === string[leng - 1 - i])              
             conunt++;                                    
     } 
     if(conunt == leng)                 
