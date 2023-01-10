@@ -9,7 +9,7 @@ const clearButton = document.querySelector("#clear")
  
 let msg = [];
 msg[0] = "This sentence is a palindrome:" 
-msg[1] = "This sentence is not a palindrome:"
+msg[1] = "This sentence is NOT a palindrome:"
 msg[2] = "The longest palindrome is:"
 // example palindrome
 // "Anne, I vote more cars race Rome to Vienna." -> sentence
@@ -100,7 +100,11 @@ for (let i = 0; i < string.length; i++) {
 function isPalindrome(string) {     
      
     let conunt = 0;  
-    let leng = string.length;    
+    let leng = string.length;  
+ 
+    // If a space is found at the beginning or end of the string -> return
+    if(string[0] == " " || string[leng] == " ")
+       return
     
     for(let i = 0; i < leng; i++){               
         if(string[i] === string[leng - 1 - i])                 
